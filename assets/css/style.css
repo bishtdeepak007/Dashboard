@@ -71,7 +71,7 @@ img {
     color: #fff;
     border-radius: 5px;
     position: fixed;
-    bottom: 20px;
+    bottom: 40px;
     right: 25px;
     display: flex;
     align-items: center;
@@ -118,18 +118,22 @@ img {
     animation: image 5000ms ease-in-out alternate-reverse infinite;
 }
 
+.banner-inner p {
+    z-index: 10 !important;
+}
+
 p {
     font-weight: 500;
 }
 
 @keyframes image {
     from {
-        border: 7px solid transparent;
+        border: 5px solid transparent;
 
     }
 
     to {
-        border: 7px solid purple;
+        border: 5px solid purple;
     }
 }
 
@@ -428,6 +432,14 @@ p {
         padding: 7px 14px !important;
         font-size: 15px;
         font-weight: 500;
+    }
+
+    .scroll a {
+        height: 33px;
+        width: 33px;
+        border-radius: 3px;
+        bottom: 26px;
+        right: 25px;
     }
 
     .banner-section p {
