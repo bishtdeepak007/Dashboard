@@ -587,6 +587,7 @@ section.skills {
     border-radius: 6px;
     cursor: pointer;
     transition: background 0.3s ease;
+    display:inline-block;
 }
 
 
@@ -870,4 +871,5 @@ section.skills {
         font-size: 0.85rem;
         padding: 10px;
     }
+
 }
